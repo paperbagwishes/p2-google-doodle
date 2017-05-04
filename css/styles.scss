@@ -1,11 +1,53 @@
 //Grand Central Station AKA the TRAP 
 @import "normalize";
 @import "google-homepage";
+
+
+
 /* Styling */
 body {
     background: #fab5ca;
+    
 }
 
-img {
-    width: 50p;
+
+
+
+
+//stage (parent)
+#stage {
+    position: relative;
+    overflow: hidden;
+}
+
+//child 
+#stage svg {
+    
+    position: absolute;
+    bottom: 0; 
+    right: 0 ;
+}
+
+#stage h1 {
+    position: absolute;
+    bottom: 0; 
+    left: -200px;
+    margin: 0;
+} 
+
+//Animations go here 
+//first frame of animation
+#stage:hover h1,
+#stage:hover svg {
+    opacity: 0;
+    transition: opacity 2.5s;
+}
+
+
+//lastframe
+
+#stage:hover h1,
+#stage:hover svg {
+    opacity: 1;
+   
 }
