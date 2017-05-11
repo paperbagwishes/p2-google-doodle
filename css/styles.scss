@@ -29,6 +29,10 @@ body {
     bottom: 10px; 
     right:  400px;
     left: 0; 
+    
+     transform: 
+   scale(1) 
+   rotate(0); 
 }
 
 #stage h1 {
@@ -53,4 +57,8 @@ body {
 #stage:hover svg {
     opacity: 1;
    
+     transform: 
+    scale(3) 
+    rotate(-45deg);
+  transition: transform 1s;
 }
