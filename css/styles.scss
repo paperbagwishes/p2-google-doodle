@@ -23,6 +23,7 @@ body {
 
 //child 
 #stage svg {
+    min-width: 50%;
     width: 85%;
     height: 85%;
     position: absolute;
@@ -34,6 +35,7 @@ body {
    scale(1) 
    rotate(0); 
 }
+
 
 #stage h1 {
     position: absolute;
